@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <div class="timer">Time: <span id="time">60</span>s</div>
+        <div class="wpm-container">
+            <div>WPM: <span id="wpm">0</span></div>
+            <div>Characters: <span id="charCount">0</span></div>
+        </div>
+        <textarea 
+            id="input-field" 
+            rows="6" 
+            placeholder="Start typing anything you want. Timer will begin when you start typing..."></textarea>
+        <button id="restart-button">Restart Test</button> <br><br>
+        <!-- <button id="Flag" onclick="findFlag()">Find the flag?</button> -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
